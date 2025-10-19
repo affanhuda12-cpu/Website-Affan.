@@ -1,0 +1,105 @@
+/* Reset dasar */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #1e293b;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #38bdf8;
+}
+
+nav a {
+  color: #f8fafc;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: #38bdf8;
+}
+
+.hero p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.about, .biodata, .contact {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h3 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.biodata .card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.biodata .card:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
